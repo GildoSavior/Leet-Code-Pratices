@@ -12,6 +12,12 @@ public class Main {
         int[] result1 = findThePrefixCommonArray(A1, B1);
         System.out.println("Example 1 Output: " + java.util.Arrays.toString(result1));
 
+        // Example 2
+        int[] A2 = {2, 3, 1};
+        int[] B2 = {3, 1, 2};
+        int[] result2 = findPrefixCommonArray(A2, B2);
+        System.out.println("Example 2 Output: " + java.util.Arrays.toString(result2));
+
     }
 
     public static int[] findThePrefixCommonArray(int[] A, int[] B) {
