@@ -6,9 +6,15 @@ import java.util.HashSet;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        // Example 1
+        int[] A1 = {1, 3, 2, 4};
+        int[] B1 = {3, 1, 2, 4};
+        int[] result1 = findThePrefixCommonArray(A1, B1);
+        System.out.println("Example 1 Output: " + java.util.Arrays.toString(result1));
+
     }
 
-    public int[] findThePrefixCommonArray(int[] A, int[] B) {
+    public static int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length;
         int[] C = new int[n]; // Resultant prefix common array
         HashSet<Integer> seenInA = new HashSet<>(); // Track elements seen in A
