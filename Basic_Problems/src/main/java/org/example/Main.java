@@ -33,4 +33,17 @@ public class Main {
         // Verificar se x é igual ao reverso ou à metade truncada
         return x == reversedHalf || x == reversedHalf / 10;
     }
+
+
+    //14.Longest Common Prefix
+    public static String longestCommonPrefix(String[] strs) {
+        String longestPrefix = "";
+        for(int i = 0; i <= strs.length; i++) {
+
+        }
+
+        return longestPrefix;
+    }
 }
+
+
