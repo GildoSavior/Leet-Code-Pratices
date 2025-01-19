@@ -36,14 +36,19 @@ public class Main {
 
 
     //14.Longest Common Prefix
+    //TODO.GS-19.01.2025 SOLVE THIS PROBLEM TOMORROW
     public static String longestCommonPrefix(String[] strs) {
         String longestPrefix = "";
         for(int i = 0; i <= strs.length; i++) {
+            for(int j = 0; j <= strs[i].length(); j++) {
 
+            }
         }
 
         return longestPrefix;
     }
+
+
 }
 
 
